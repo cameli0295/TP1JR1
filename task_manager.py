@@ -35,3 +35,12 @@ def show_tasks():
 
 if choice == '1':
     show_tasks()
+
+
+def add_task():
+    task = input("Entrez une nouvelle tâche : ")
+    tasks.append(task)
+    print("Tâche ajoutée.")
+
+if choice == '2':
+    add_task()
